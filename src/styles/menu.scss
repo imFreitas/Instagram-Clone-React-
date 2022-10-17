@@ -1,0 +1,20 @@
+.menu 
+{
+    display: flex;
+    padding-right: 1.5em;
+  
+    .icon {
+      margin-right: 1.5em;
+      margin-top: 6px;
+      width: 23px;
+      height: 23px;
+  
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  
+    .profileIcon {
+      margin: 1px 
+    }
+  }

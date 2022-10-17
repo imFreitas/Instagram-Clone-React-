@@ -1,0 +1,37 @@
+@import 'variables';
+
+
+
+.suggestions {
+  margin-top: 1.25em;
+  margin-left: 2.4em;
+  
+
+  .titleContainer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+    font-weight: 500;
+    color: $font-color-secondary;
+    margin-bottom: 1.25em;
+
+    .title {
+      min-width: 200px;
+    }
+
+    a {
+      width: 100%;
+      text-align: left;
+      font-weight: bold;
+      color: black;
+      margin-left: 38px;
+
+    }
+  }
+}
+@media only screen and (max-width: 900px) {
+    .suggestions {
+        display: none;
+   
+    }
+  }
